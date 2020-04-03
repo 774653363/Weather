@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: micro-config-report-service
+  cloud:
+    config:
+      label: master
+      profile: dev
+      name: microservice-config-report-service
+      uri: http://localhost:5001
+

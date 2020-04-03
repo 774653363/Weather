@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: micro-weather-eureka
+  cloud:
+    config:
+      label: master
+      profile: dev
+      name: microservice-config-eureka
+      uri: http://localhost:5001

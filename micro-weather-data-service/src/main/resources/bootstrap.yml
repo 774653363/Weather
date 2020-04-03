@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: micro-weather-data-service
+  cloud:
+    config:
+      label: master
+      profile: dev
+      name: microservice-config-data-service
+      uri: http://localhost:5001
+

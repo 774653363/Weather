@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: microservice-config-zuul-gateway
+  cloud:
+    config:
+      label: master
+      profile: dev
+      name: microservice-config-zuul-gateway
+      uri: http://localhost:5001
+

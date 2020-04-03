@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: micro-weather-hystrix-dashboard
+  cloud:
+    config:
+      label: master
+      profile: dev
+      name: microservice-config-hystrix-dashboard
+      uri: http://localhost:5001
+
